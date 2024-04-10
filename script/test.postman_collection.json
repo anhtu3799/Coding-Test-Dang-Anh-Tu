@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "5739bb34-4dac-4e71-884a-70a992515ed5",
+		"name": "test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8080/api/translations?page_number=0&page_size=10",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/translations?page_number=0&page_size=10",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"translations"
+					],
+					"query": [
+						{
+							"key": "page_number",
+							"value": "0"
+						},
+						{
+							"key": "page_size",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
